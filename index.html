@@ -4,6 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>EVEN Hair — Social-Media-Strategie</title>
+<script>
+// Auf Smartphones (Hochformat) automatisch zur Mobil-Version — außer ?desktop in der URL
+(function(){
+  try{
+    var isPhone = window.matchMedia('(max-width: 768px)').matches || /Mobi|Android|iPhone|iPod/i.test(navigator.userAgent);
+    var wantsDesktop = /[?&]desktop/.test(location.search) || sessionStorage.getItem('even_desktop')==='1';
+    if(/[?&]desktop/.test(location.search)) sessionStorage.setItem('even_desktop','1');
+    if(isPhone && !wantsDesktop){ location.replace('mobile.html' + location.hash); }
+  }catch(e){}
+})();
+</script>
 <meta name="description" content="Social-Media-Strategie für EVEN Hair (Berlin) — TikTok & Instagram. Leitkonzept: Ins Gleichgewicht mit dir selbst.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
