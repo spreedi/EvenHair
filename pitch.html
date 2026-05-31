@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>EVEN Hair — Social Media in Kürze</title>
+<meta name="description" content="Die EVEN Hair Social-Media-Strategie auf den Punkt. TikTok & Instagram.">
+<meta name="theme-color" content="#1A1A1A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Jost:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1A1A1A; --char:#232220; --cream:#ECEAE6; --paper:#FBFAF7; --light:#F4F2EE;
+  --wood:#B0875A; --wood-dk:#8C6A3E; --grey:#6E6A64; --grey-lt:#9C978E; --line:#D6D2CA;
+}
+*{box-sizing:border-box;-webkit-text-size-adjust:100%;margin:0;padding:0;}
+body{font-family:'Inter',-apple-system,Helvetica,Arial,sans-serif;background:var(--ink);color:var(--ink);line-height:1.55;}
+h1,h2{font-family:'Playfair Display',Georgia,serif;font-weight:500;line-height:1.08;}
+.serif-i{font-family:'Playfair Display',serif;font-style:italic;}
+.wood{color:var(--wood);} .grey{color:var(--grey);} .greyl{color:var(--grey-lt);} .cream{color:var(--cream);}
+img{max-width:100%;display:block;}
+
+.progress{position:fixed;top:0;left:0;height:3px;background:var(--wood);width:0;z-index:60;transition:width .1s;}
+.toplink{position:fixed;top:11px;right:11px;z-index:50;background:rgba(26,26,26,.78);color:var(--cream);font-family:'Jost';font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding:6px 11px;border-radius:20px;text-decoration:none;backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.12);}
+
+section{min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding:64px 26px;position:relative;}
+.dark{background:var(--ink);color:var(--cream);}
+.light{background:var(--light);}
+.paper{background:var(--paper);}
+.wrap{max-width:760px;margin:0 auto;width:100%;}
+.eyebrow{font-family:'Jost';text-transform:uppercase;letter-spacing:.3em;font-size:11px;color:var(--wood);margin-bottom:18px;}
+.num{font-family:'Jost';letter-spacing:.2em;font-size:11px;color:var(--grey-lt);position:absolute;top:34px;left:26px;}
+h2{font-size:clamp(30px,7vw,46px);}
+.big{font-size:clamp(34px,8vw,58px);}
+.lead{font-size:clamp(16px,2.4vw,19px);color:var(--grey);margin-top:18px;max-width:600px;}
+.dark .lead{color:var(--grey-lt);}
+
+/* hero */
+.hero{background:var(--ink);overflow:hidden;}
+.hero .bg{position:absolute;inset:0;background:url('assets/cover_portrait.jpg') center/cover;opacity:.32;}
+.hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,26,26,.5),rgba(26,26,26,.65) 60%,rgba(26,26,26,.95));}
+.hero .wrap{position:relative;z-index:2;text-align:center;}
+.word{font-family:'Playfair Display';font-size:clamp(72px,22vw,150px);line-height:.86;color:var(--cream);letter-spacing:.02em;}
+.subw{font-family:'Jost';letter-spacing:.5em;font-size:clamp(13px,3vw,17px);color:var(--grey-lt);margin-top:8px;}
+.tag{font-family:'Playfair Display';font-style:italic;font-size:clamp(19px,4vw,26px);color:var(--cream);margin-top:26px;}
+.rule{height:2px;width:90px;background:var(--wood);margin:22px auto 16px;}
+.hint{position:absolute;bottom:24px;left:0;right:0;text-align:center;font-family:'Jost';letter-spacing:.2em;font-size:10px;color:var(--grey-lt);z-index:2;}
+
+.statement{font-size:clamp(28px,6.5vw,50px);font-family:'Playfair Display';line-height:1.12;}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:30px;}
+@media(max-width:560px){.cols2{grid-template-columns:1fr;}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:24px;}
+.card.ink{background:var(--char);color:var(--cream);border:none;}
+.card .h{font-family:'Jost';text-transform:uppercase;letter-spacing:.18em;font-size:12px;color:var(--wood);margin-bottom:6px;}
+.card .role{font-family:'Playfair Display';font-style:italic;font-size:21px;margin-bottom:12px;}
+.card p{font-size:15px;}
+.card.ink p{color:var(--cream);}
+
+.pillars{display:grid;gap:12px;margin-top:26px;}
+.pillar{display:flex;gap:16px;align-items:baseline;border-left:3px solid var(--wood);padding:14px 18px;background:var(--paper);border-radius:0 4px 4px 0;}
+.pillar .n{font-family:'Playfair Display';font-size:24px;color:var(--wood);}
+.pillar .t{font-weight:600;font-size:17px;}
+.pillar .d{font-size:14px;color:var(--grey);margin-top:2px;}
+
+.posts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:26px;}
+@media(max-width:560px){.posts{grid-template-columns:1fr;}}
+.post{border:1px solid rgba(255,255,255,.14);border-radius:5px;overflow:hidden;background:var(--char);}
+.post .bar{background:var(--wood);color:var(--ink);display:flex;justify-content:space-between;padding:7px 13px;font-family:'Jost';text-transform:uppercase;letter-spacing:.1em;font-size:10px;}
+.post .b{padding:14px 16px;}
+.post .pt{font-weight:600;font-size:16px;color:var(--cream);}
+.post .cap{font-family:'Playfair Display';font-style:italic;font-size:13px;color:var(--grey-lt);margin-top:8px;}
+
+.dodont{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:26px;}
+@media(max-width:560px){.dodont{grid-template-columns:1fr;}}
+ul.clean{list-style:none;}
+ul.clean li{position:relative;padding-left:20px;margin-bottom:11px;font-size:15px;}
+ul.clean li::before{content:"—";position:absolute;left:0;color:var(--wood);}
+
+.closing{background:url('assets/closing_wide.jpg') center/cover;text-align:center;color:var(--cream);}
+.closing .scrim{position:absolute;inset:0;background:rgba(15,15,15,.64);}
+.closing .wrap{position:relative;z-index:2;}
+
+.foot{background:var(--ink);color:var(--grey-lt);text-align:center;padding:30px 22px;font-size:12px;}
+.foot a{color:var(--wood);text-decoration:none;}
+</style>
+</head>
+<body>
+<div class="progress" id="prog"></div>
+<a class="toplink" href="index.html?full">Ausführlich ↗</a>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="bg"></div>
+  <div class="wrap">
+    <div class="word">EVEN</div>
+    <div class="subw">H A I R</div>
+    <div class="tag">Ins Gleichgewicht mit dir selbst.</div>
+    <div class="rule"></div>
+    <div class="greyl" style="font-size:13px;">Social Media auf den Punkt · TikTok &amp; Instagram</div>
+  </div>
+  <div class="hint">↓</div>
+</section>
+
+<!-- 1 DIE IDEE -->
+<section class="dark">
+  <span class="num">01</span>
+  <div class="wrap">
+    <div class="eyebrow">Die Idee</div>
+    <div class="statement">Wir verkaufen nicht.<br><span class="serif-i wood">Wir strahlen aus.</span></div>
+    <p class="lead">Für eine exklusive Marke ist Social Media kein Verkaufs­kanal, sondern ein Signal. Ziel ist nicht „mehr Termine“, sondern eine Aura, die die richtigen Menschen anzieht.</p>
+  </div>
+</section>
+
+<!-- 2 LEITKONZEPT -->
+<section class="light">
+  <span class="num grey">02</span>
+  <div class="wrap">
+    <div class="eyebrow">Das Leitkonzept</div>
+    <h2>Ins Gleichgewicht<br><span class="serif-i wood">mit dir selbst.</span></h2>
+    <p class="lead"><b>EVEN = Balance.</b> Das Gleichgewicht zwischen wer du bist und wer du sein willst. Genau das macht der Salon — und genau das erzählen wir.</p>
+  </div>
+</section>
+
+<!-- 3 ZWEI KANÄLE -->
+<section class="light paper">
+  <span class="num grey">03</span>
+  <div class="wrap">
+    <div class="eyebrow">Zwei Kanäle, zwei Rollen</div>
+    <h2>Klar getrennt — klar erkennbar.</h2>
+    <div class="cols2">
+      <div class="card">
+        <div class="h">Instagram</div>
+        <div class="role wood">Die Galerie</div>
+        <p>Kuratiert, ruhig, editorial. Der Feed wie ein Kunstband. <b>3× / Woche.</b></p>
+      </div>
+      <div class="card ink">
+        <div class="h">TikTok</div>
+        <div class="role wood">Das Atelier-Fenster</div>
+        <p>Reichweite über Handwerk &amp; Verwandlung. Keine Tänze. <b>4–5× / Woche.</b></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 SÄULEN -->
+<section class="light">
+  <span class="num grey">04</span>
+  <div class="wrap">
+    <div class="eyebrow">Was wir zeigen</div>
+    <h2>Drei Säulen.</h2>
+    <div class="pillars">
+      <div class="pillar"><span class="n">01</span><div><div class="t">Die Verwandlung</div><div class="d">Der AHA-Moment im Spiegel. Emotion &amp; Reichweite.</div></div></div>
+      <div class="pillar"><span class="n">02</span><div><div class="t">Das Handwerk</div><div class="d">Schnitt, Farbe, Textur — ruhig, nah, „oddly satisfying“.</div></div></div>
+      <div class="pillar"><span class="n">03</span><div><div class="t">Die Haltung</div><div class="d">Ehrliche Worte, das mutige „Nein“. Das macht die Marke.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 BEISPIELE -->
+<section class="dark">
+  <span class="num">05</span>
+  <div class="wrap">
+    <div class="eyebrow">So sieht das aus</div>
+    <h2 class="cream">Beispiel-Postings.</h2>
+    <div class="posts">
+      <div class="post"><div class="bar"><span>Verwandlung</span><span>Reel</span></div><div class="b"><div class="pt">Der Spiegel-Moment</div><div class="cap">„Der Moment, in dem es passt.“</div></div></div>
+      <div class="post"><div class="bar"><span>Handwerk</span><span>Reel</span></div><div class="b"><div class="pt">Der Schnitt — ASMR</div><div class="cap">„Kein schneller Schnitt. Eine Entscheidung. 🖤“</div></div></div>
+      <div class="post"><div class="bar"><span>Haltung</span><span>Talk</span></div><div class="b"><div class="pt">3 Dinge, die wir nicht verkaufen</div><div class="cap">„Wir finden, was bleibt.“</div></div></div>
+      <div class="post"><div class="bar"><span>Menschen</span><span>POV</span></div><div class="b"><div class="pt">Tag 1 vs. Monat 8 (Azubi)</div><div class="cap">„Lernen bei den Langsamen.“</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 REGELN -->
+<section class="light">
+  <span class="num grey">06</span>
+  <div class="wrap">
+    <div class="eyebrow">Die Regeln</div>
+    <h2>Tun &amp; lassen.</h2>
+    <div class="dodont">
+      <div class="card" style="border-left:3px solid var(--wood);">
+        <div class="h" style="color:var(--wood-dk);">Tun ✓</div>
+        <ul class="clean">
+          <li>Andeuten statt zeigen — Diskretion als Statussignal.</li>
+          <li>Weniger, aber makellos posten.</li>
+          <li>Eigene Haltung statt Trends.</li>
+          <li>Editorial-Qualität halten.</li>
+        </ul>
+      </div>
+      <div class="card ink">
+        <div class="h" style="color:#C98A6B;">Lassen ✕</div>
+        <ul class="clean">
+          <li>Preise &amp; Rabatte im Feed.</li>
+          <li>„Jetzt buchen!“-Spam.</li>
+          <li>Promi-Gesichter (Diskretion!).</li>
+          <li>Emoji- &amp; Hashtag-Gewitter.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 ERFOLG -->
+<section class="light paper">
+  <span class="num grey">07</span>
+  <div class="wrap">
+    <div class="eyebrow">Was zählt</div>
+    <h2>Erfolg <span class="serif-i wood">richtig</span> messen.</h2>
+    <p class="lead">Nicht die Follower-Zahl. Sondern: <b>Saves, Shares, Watch-Through</b> und Reposts durch die richtigen Leute.</p>
+    <p class="lead serif-i" style="color:var(--ink);margin-top:14px;">Lieber 4.000 richtige Follower als 40.000 beliebige.</p>
+  </div>
+</section>
+
+<!-- CLOSING -->
+<section class="closing">
+  <div class="scrim"></div>
+  <div class="wrap">
+    <div class="eyebrow" style="letter-spacing:.45em;">Find Your</div>
+    <div class="word" style="font-size:clamp(64px,20vw,120px);">EVEN</div>
+    <div class="serif-i" style="font-size:clamp(18px,4vw,24px);margin-top:8px;">Ins Gleichgewicht mit dir selbst.</div>
+    <div class="greyl" style="font-size:11px;margin-top:24px;">EVEN Hair · Berlin · 2026</div>
+  </div>
+</section>
+
+<div class="foot">
+  EVEN · Social-Media-Strategie (Kurzfassung)<br>
+  <a href="index.html?full">→ Ausführliche Version mit allen Details</a>
+</div>
+
+<script>
+const h=document.documentElement,prog=document.getElementById('prog');
+addEventListener('scroll',()=>{prog.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';},{passive:true});
+</script>
+</body>
+</html>

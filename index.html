@@ -5,12 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>EVEN Hair — Social-Media-Strategie</title>
 <script>
-// Auf Smartphones (Hochformat) automatisch zur Mobil-Version — außer ?desktop in der URL
+// Standard = kurze Pitch-Version (responsive, Desktop+Handy). Ausführlich nur mit ?full.
 (function(){
   try{
+    var full = /[?&]full/.test(location.search) || /[?&]desktop/.test(location.search);
+    if(!full){ location.replace('pitch.html' + location.hash); return; }
+    // Ausführliche Version: auf Smartphones zur Mobil-Detailansicht, außer ?desktop
     var isPhone = window.matchMedia('(max-width: 768px)').matches || /Mobi|Android|iPhone|iPod/i.test(navigator.userAgent);
-    var wantsDesktop = /[?&]desktop/.test(location.search) || sessionStorage.getItem('even_desktop')==='1';
-    if(/[?&]desktop/.test(location.search)) sessionStorage.setItem('even_desktop','1');
+    var wantsDesktop = /[?&]desktop/.test(location.search);
     if(isPhone && !wantsDesktop){ location.replace('mobile.html' + location.hash); }
   }catch(e){}
 })();
