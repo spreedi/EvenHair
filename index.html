@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EVEN Hair — Social-Media-Strategie</title>
+<meta name="description" content="Social-Media-Strategie für EVEN Hair (Berlin) — TikTok & Instagram. Leitkonzept: Ins Gleichgewicht mit dir selbst.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<style>
+:root{
+  --ink:#1A1A1A; --char:#232220; --char2:#2A2622;
+  --cream:#ECEAE6; --paper:#FBFAF7; --light:#F4F2EE;
+  --wood:#B0875A; --wood-dk:#8C6A3E; --grey:#6E6A64; --grey-lt:#9C978E;
+  --line:#D6D2CA; --line-dk:#3A3835;
+}
+html,body{background:#0e0e0e;}
+.reveal{font-family:'Inter',-apple-system,Helvetica,Arial,sans-serif;font-size:20px;color:var(--ink);}
+.reveal .slides{text-align:left;}
+.reveal .slides section{padding:0;height:720px;width:1280px;}
+.pad{box-sizing:border-box;height:720px;padding:54px 66px;position:relative;}
+.reveal h1,.reveal h2,.reveal h3{font-family:'Playfair Display',Georgia,serif;font-weight:500;margin:0;text-transform:none;letter-spacing:0;line-height:1.05;}
+.dark{background:var(--ink);color:var(--cream);}
+.dark h1,.dark h2,.dark h3{color:var(--cream);}
+.light{background:var(--light);}
+.paper{background:var(--paper);}
+.eyebrow{font-family:'Jost',sans-serif;text-transform:uppercase;letter-spacing:.30em;font-size:13px;color:var(--wood);font-weight:500;margin:0 0 14px;}
+.title{font-size:46px;margin:0 0 6px;}
+.title.sm{font-size:38px;}
+.title.xs{font-size:32px;}
+.serif-i{font-family:'Playfair Display',serif;font-style:italic;}
+.wood{color:var(--wood);} .woodk{color:var(--wood-dk);} .grey{color:var(--grey);} .greyl{color:var(--grey-lt);} .cream{color:var(--cream);}
+.lead{font-size:18px;color:var(--grey);line-height:1.5;}
+.dark .lead{color:var(--grey-lt);}
+.foot{position:absolute;left:66px;bottom:26px;font-family:'Jost';letter-spacing:.22em;font-size:10px;color:var(--grey);text-transform:uppercase;}
+.dark .foot{color:var(--grey-lt);}
+.pageno{position:absolute;right:66px;bottom:26px;font-family:'Jost';letter-spacing:.2em;font-size:10px;color:var(--grey);}
+.dark .pageno{color:var(--grey-lt);}
+.row{display:flex;gap:22px;}
+.col{flex:1;}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:26px 28px;box-sizing:border-box;}
+.card.ink{background:var(--ink);color:var(--cream);border:none;}
+.accentL{border-left:4px solid var(--wood);}
+.lab{font-family:'Jost';text-transform:uppercase;letter-spacing:.22em;font-size:12px;color:var(--wood);margin:0 0 14px;font-weight:500;}
+ul.clean{list-style:none;margin:0;padding:0;}
+ul.clean li{position:relative;padding-left:22px;margin:0 0 13px;font-size:15.5px;line-height:1.45;}
+ul.clean li::before{content:"—";position:absolute;left:0;color:var(--wood);}
+.kv{display:flex;align-items:baseline;gap:16px;padding:11px 14px;}
+.kv:nth-child(even){background:var(--paper);}
+.kv .k{font-family:'Jost';text-transform:uppercase;letter-spacing:.16em;font-size:12px;color:var(--wood);width:150px;flex:none;}
+.kv .v{font-size:15px;color:var(--ink);}
+/* cover */
+.cover{display:grid;grid-template-columns:1fr 460px;height:720px;}
+.cover .imgcol{background-size:cover;background-position:center;position:relative;}
+.cover .seam{position:absolute;left:-3px;top:0;bottom:0;width:5px;background:var(--wood);}
+.cover .txt{padding:0 0 0 0;display:flex;flex-direction:column;justify-content:center;padding-left:66px;}
+.word{font-family:'Playfair Display';font-weight:500;font-size:112px;line-height:.9;color:var(--cream);letter-spacing:.02em;}
+.subword{font-family:'Jost';letter-spacing:.5em;font-size:17px;color:var(--grey-lt);margin-top:6px;}
+.rule{height:2px;width:120px;background:var(--wood);margin:22px 0 16px;}
+/* goals / tiles */
+.goals{display:flex;gap:18px;}
+.goal{flex:1;background:var(--ink);color:var(--cream);padding:20px 22px;border-radius:2px;}
+.goal .n{font-family:'Playfair Display';font-size:26px;color:var(--wood);}
+.kpi{display:grid;grid-template-columns:1fr 1fr;gap:10px 34px;margin-top:10px;}
+.kpi div{font-size:14.5px;}
+.kpi b{color:var(--ink);}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+.tile{background:var(--paper);border:1px solid var(--line);border-top:5px solid var(--wood);border-radius:2px;padding:22px 18px;font-weight:600;font-size:16px;min-height:78px;display:flex;align-items:center;}
+/* channels */
+.chan{display:flex;gap:22px;}
+.chhead{padding:16px 22px;font-family:'Jost';letter-spacing:.22em;text-transform:uppercase;font-size:14px;display:flex;justify-content:space-between;align-items:center;}
+/* pillars */
+.prow{display:flex;align-items:center;gap:18px;background:var(--paper);border-left:4px solid var(--wood);padding:12px 18px;margin-bottom:9px;}
+.prow .n{font-family:'Playfair Display';font-size:22px;color:var(--wood);width:36px;}
+.prow .t{font-weight:600;font-size:16px;width:200px;}
+.prow .d{font-size:13.5px;color:var(--grey);flex:1;}
+.prow .c{font-size:13px;width:180px;text-align:right;}
+.prow .p{font-family:'Playfair Display';font-size:22px;color:var(--wood);width:64px;text-align:right;}
+/* post cards */
+.cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+.pc{border:1px solid var(--line);border-radius:2px;overflow:hidden;background:var(--paper);min-height:196px;display:flex;flex-direction:column;}
+.dark .pc{background:var(--char);border-color:var(--line-dk);}
+.pc .bar{background:var(--wood);color:var(--ink);display:flex;justify-content:space-between;padding:7px 12px;font-family:'Jost';text-transform:uppercase;letter-spacing:.12em;font-size:10px;}
+.pc .body{padding:12px 14px;display:flex;flex-direction:column;flex:1;}
+.pc .pt{font-weight:600;font-size:14.5px;margin:0 0 6px;}
+.pc .pcn{font-size:12px;color:var(--grey);line-height:1.4;flex:1;}
+.dark .pc .pcn{color:var(--grey-lt);}
+.pc .cap{font-family:'Playfair Display';font-style:italic;font-size:12px;margin-top:8px;}
+.pc .cap .cl{font-family:'Jost';font-style:normal;text-transform:uppercase;letter-spacing:.1em;font-size:8px;color:var(--wood);margin-right:6px;}
+/* week table */
+table.week{border-collapse:collapse;width:100%;margin-top:6px;}
+table.week th{background:var(--ink);color:var(--cream);font-family:'Jost';letter-spacing:.16em;font-size:11px;padding:8px 4px;text-align:center;font-weight:500;}
+table.week td{border:1px solid var(--line);background:var(--paper);font-size:11px;text-align:center;padding:10px 4px;height:46px;color:var(--ink);}
+table.week tr.tt td{background:#EFEAE3;}
+table.week .rl{font-family:'Jost';text-transform:uppercase;letter-spacing:.14em;font-size:10px;color:var(--wood);background:transparent;border:none;text-align:right;width:84px;}
+/* batch bar */
+.batch{background:var(--ink);color:var(--cream);padding:14px 22px;border-radius:2px;font-size:14px;}
+.batch b{color:var(--wood);font-family:'Jost';letter-spacing:.18em;text-transform:uppercase;font-size:12px;margin-right:10px;}
+/* swatches */
+.sw{display:flex;gap:14px;}
+.sw .s{text-align:left;}
+.sw .chip{width:96px;height:96px;border:1px solid var(--line);border-radius:2px;}
+.sw .nm{font-family:'Jost';font-size:11px;letter-spacing:.08em;color:var(--grey);margin-top:6px;}
+.sw .hx{font-size:10px;color:var(--grey-lt);}
+/* do/dont */
+.dd{display:flex;gap:22px;}
+.dd .b{flex:1;border-radius:2px;padding:22px 24px;}
+.sig{font-family:'Playfair Display';font-style:italic;font-size:18px;color:var(--ink);}
+/* timeline */
+.tl{display:flex;gap:18px;margin-top:30px;position:relative;}
+.tl .ph{flex:1;}
+.tl .dot{width:13px;height:13px;border-radius:50%;background:var(--wood);margin-bottom:14px;}
+.tl .wk{font-family:'Jost';letter-spacing:.18em;text-transform:uppercase;font-size:11px;color:var(--wood);}
+.tl .pt{font-family:'Playfair Display';font-size:22px;color:var(--cream);margin:4px 0 8px;}
+.tl .pd{font-size:13px;color:var(--grey-lt);line-height:1.45;}
+.tlrule{height:2px;background:var(--wood);position:absolute;left:0;right:0;top:6px;}
+/* closing */
+.closing{height:720px;background-size:cover;background-position:center;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative;}
+.closing .scrim{position:absolute;inset:0;background:rgba(15,15,15,.58);}
+.closing .inner{position:relative;z-index:2;}
+.reveal .controls{color:var(--wood);}
+.reveal .progress{color:var(--wood);height:3px;}
+.reveal .slide-number{background:rgba(0,0,0,.4);font-family:'Jost';}
+b.em{color:var(--wood);}
+.mini{display:flex;gap:40px;margin-top:22px;}
+.mini .m .ml{font-family:'Jost';letter-spacing:.16em;text-transform:uppercase;font-size:11px;color:var(--wood);}
+.mini .m .mv{font-family:'Playfair Display';font-style:italic;font-size:16px;color:var(--cream);margin-top:4px;}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- 1 COVER -->
+<section data-background-color="#1A1A1A">
+  <div class="cover">
+    <div class="txt">
+      <div class="eyebrow" style="letter-spacing:.4em;font-size:14px;">Social-Media-Strategie</div>
+      <div class="word">EVEN</div>
+      <div class="subword">H A I R</div>
+      <div class="serif-i cream" style="font-size:25px;margin-top:26px;">Ins Gleichgewicht mit dir selbst.</div>
+      <div class="rule"></div>
+      <div class="greyl" style="font-size:14px;">TikTok &amp; Instagram — Relaunch-Konzept</div>
+      <div class="grey" style="font-size:11.5px;margin-top:8px;">Markenaufbau · Exklusive Ausstrahlung · Berlin · 2026</div>
+    </div>
+    <div class="imgcol" style="background-image:url('assets/cover_portrait.jpg');"><div class="seam"></div></div>
+  </div>
+</section>
+
+<!-- 2 AGENDA -->
+<section data-background-color="#F4F2EE">
+  <div class="pad">
+    <div class="eyebrow">Überblick</div>
+    <h2 class="title sm">Was diese Strategie umfasst</h2>
+    <div class="row" style="margin-top:26px;">
+      <div class="col">
+        <ol style="list-style:none;margin:0;padding:0;" id="ag1"></ol>
+      </div>
+      <div class="col">
+        <ol style="list-style:none;margin:0;padding:0;" id="ag2"></ol>
+      </div>
+    </div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">02</div>
+  </div>
+</section>
+
+<!-- 3 AUSGANGSLAGE -->
+<section data-background-color="#F4F2EE">
+  <div class="pad">
+    <div class="eyebrow">01 · Ausgangslage</div>
+    <h2 class="title sm">Der Auftrag &amp; die Marke</h2>
+    <div class="row" style="margin-top:24px;">
+      <div class="col card accentL">
+        <div class="lab">Der Auftrag</div>
+        <p style="margin:0 0 12px;font-size:15px;"><b>Kein Neukunden-Druck.</b> <span class="grey">Der Salon ist etabliert und exklusiv.</span></p>
+        <p style="margin:0 0 12px;font-size:15px;"><b>Ziel ist Markenaufbau.</b> <span class="grey">Die exklusive Ausstrahlung stärken.</span></p>
+        <p style="margin:0 0 12px;font-size:15px;"><b>Anspruch:</b> <span class="grey">Prominente &amp; kreative Köpfe anziehen.</span></p>
+        <p style="margin:0;font-size:15px;"><b>Kanäle:</b> <span class="grey">TikTok &amp; Instagram — kompletter Relaunch.</span></p>
+      </div>
+      <div class="col card ink">
+        <div class="lab">Die Marke</div>
+        <ul class="clean">
+          <li>Avantgardistisch &amp; künstlerisch — Berlin, Prenzlauer Berg.</li>
+          <li>Premium-Segment, geführt von Nadine &amp; Katharina.</li>
+          <li>Editoriale Bildwelt: S/W-Porträts, lichtes Design, Naturholz.</li>
+          <li>Haltung: ehrlich, einfühlsam, kompromisslos im Geschmack.</li>
+          <li>Versprechen: Wunsch &amp; Persönlichkeit in Einklang — der AHA.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">03</div>
+  </div>
+</section>
+
+<!-- 4 STRATEGISCHER KERN -->
+<section data-background-color="#1A1A1A">
+  <div class="pad">
+    <div class="eyebrow">02 · Strategischer Kern</div>
+    <h2 class="title">Wir verkaufen nicht.<br>Wir <span class="serif-i wood">strahlen aus</span>.</h2>
+    <p class="lead serif-i" style="margin-top:14px;">Für eine exklusive Marke ist Social Media kein Verkaufs-, sondern ein Signal-Kanal.</p>
+    <div class="row" style="margin-top:22px;">
+      <div class="col card" style="background:var(--char);border-color:var(--line-dk);">
+        <div class="lab" style="color:var(--grey-lt);">Normaler Salon</div>
+        <div id="ksL"></div>
+      </div>
+      <div class="col card" style="background:var(--char2);border:1px solid var(--wood);">
+        <div class="lab">EVEN</div>
+        <div id="ksR"></div>
+      </div>
+    </div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">04</div>
+  </div>
+</section>
+
+<!-- 5 LEITKONZEPT -->
+<section data-background-color="#1A1A1A">
+  <div style="display:grid;grid-template-columns:1fr 420px;height:720px;">
+    <div class="pad">
+      <div class="eyebrow">03 · Leitkonzept</div>
+      <h2 class="title">Ins Gleichgewicht<br><span class="serif-i wood">mit dir selbst.</span></h2>
+      <p style="font-size:17px;line-height:1.55;margin-top:20px;max-width:560px;">Der Name <b class="em">EVEN</b> ist das Konzept: das Gleichgewicht zwischen wer du bist und wer du sein willst. Genau das leistet der Salon — Wunsch und Persönlichkeit in Einklang.</p>
+      <div class="mini">
+        <div class="m"><div class="ml">Balance</div><div class="mv">Ebenmaß statt Effekt</div></div>
+        <div class="m"><div class="ml">Ehrlichkeit</div><div class="mv">Geschmack, der bleibt</div></div>
+        <div class="m"><div class="ml">Der AHA</div><div class="mv">Der Moment, in dem es passt</div></div>
+      </div>
+      <div class="foot">EVEN · Social-Media-Strategie</div>
+    </div>
+    <div style="background:url('assets/raum_panel.jpg') center/cover;position:relative;">
+      <div style="position:absolute;inset:0;background:rgba(26,26,26,.4);"></div>
+      <div style="position:absolute;left:-3px;top:0;bottom:0;width:5px;background:var(--wood);"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 MARKENFUNDAMENT -->
+<section data-background-color="#F4F2EE">
+  <div class="pad">
+    <div class="eyebrow">03 · Markenfundament</div>
+    <h2 class="title sm">Das Fundament in einem Blick</h2>
+    <div style="margin-top:22px;" id="fund"></div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">06</div>
+  </div>
+</section>
+
+<!-- 7 ZIELE & KPI -->
+<section data-background-color="#F4F2EE">
+  <div class="pad">
+    <div class="eyebrow">04 · Ziele &amp; Erfolgsmessung</div>
+    <h2 class="title sm">Markenaufbau — nicht Termine</h2>
+    <div class="goals" style="margin-top:22px;">
+      <div class="goal"><div class="n">01</div><div style="font-weight:600;margin-top:6px;">Die Adresse werden</div><div class="greyl" style="font-size:13px;margin-top:4px;">DIE avantgardistische Hair-Adresse Berlins.</div></div>
+      <div class="goal"><div class="n">02</div><div style="font-weight:600;margin-top:6px;">Aura aufbauen</div><div class="greyl" style="font-size:13px;margin-top:4px;">Exklusivität &amp; Diskretion, die anzieht.</div></div>
+      <div class="goal"><div class="n">03</div><div style="font-weight:600;margin-top:6px;">Geschmack zeigen</div><div class="greyl" style="font-size:13px;margin-top:4px;">Handwerk sichtbar machen — keine Preise.</div></div>
+    </div>
+    <div class="lab" style="margin-top:24px;">Woran wir Erfolg messen</div>
+    <div class="kpi">
+      <div><b>● Save- &amp; Share-Rate</b> <span class="grey">— „Das merke ich mir / das ist Status“</span></div>
+      <div><b>● Profilbesuche &amp; Reach</b> <span class="grey">— Wachstum der richtigen Leute</span></div>
+      <div><b>● Watch-Through (TikTok)</b> <span class="grey">— Qualität statt Vanity-Likes</span></div>
+      <div><b>● DMs &amp; Story-Replies</b> <span class="grey">— Pull statt Push</span></div>
+      <div><b>● Tastemaker-Reposts</b> <span class="grey">— Fremd-Adel aus Mode &amp; Kunst</span></div>
+      <div><b>● Follower-Qualität</b> <span class="grey">— nicht: nackte Follower-Zahl</span></div>
+    </div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">07</div>
+  </div>
+</section>
+
+<!-- 8 ZIELGRUPPE -->
+<section data-background-color="#1A1A1A">
+  <div style="display:grid;grid-template-columns:1fr 400px;height:720px;">
+    <div class="pad">
+      <div class="eyebrow">04 · Zielgruppe</div>
+      <h2 class="title sm">Ein Tribe, keine Demografie</h2>
+      <p style="font-size:16px;margin-top:16px;">Menschen, die <b class="em">Geschmack über Trend</b> stellen.</p>
+      <ul class="clean" style="margin-top:14px;">
+        <li>Kreative — Kunst, Schauspiel, Musik, Mode.</li>
+        <li>Erfolgreiche Anspruchsvolle mit hohem Anspruch.</li>
+        <li>Berlin-affine Ästheten, die Diskretion schätzen.</li>
+      </ul>
+      <div class="card" style="background:var(--char);border-color:var(--line-dk);margin-top:22px;max-width:620px;">
+        <div class="lab">Mindset</div>
+        <div class="serif-i cream" style="font-size:18px;line-height:1.4;">„Ich will gesehen, nicht bedient werden. Ich zahle für Können und Diskretion.“</div>
+      </div>
+      <div class="foot">EVEN · Social-Media-Strategie</div>
+    </div>
+    <div style="background:url('assets/tribe_portrait.jpg') center/cover;position:relative;"><div style="position:absolute;left:-3px;top:0;bottom:0;width:5px;background:var(--wood);"></div></div>
+  </div>
+</section>
+
+<!-- 9 TONALITÄT -->
+<section data-background-color="#F4F2EE">
+  <div class="pad">
+    <div class="eyebrow">04 · Tonalität &amp; Sprache</div>
+    <h2 class="title sm">So klingt EVEN</h2>
+    <p style="margin-top:12px;font-size:15px;"><b>Empfehlung: „Du“ — aber mit Substanz.</b> <span class="grey">Nähe ohne Klasseverlust; Exklusivität kommt aus Inhalt &amp; Ästhetik.</span></p>
+    <div class="dd" style="margin-top:18px;">
+      <div class="b paper accentL" style="border:1px solid var(--line);">
+        <div class="lab" style="color:var(--wood-dk);">So ✓</div>
+        <ul class="clean">
+          <li>„Wir nehmen uns Zeit für dich.“</li>
+          <li>„Das steht dir wirklich — und das nicht.“</li>
+          <li>„Eine Entscheidung, kein schneller Schnitt.“</li>
+          <li>Stille, ein Satz, viel Raum.</li>
+        </ul>
+      </div>
+      <div class="b" style="background:#EFE7E2;border:1px solid var(--line);">
+        <div class="lab" style="color:#A8553C;">So nicht ✕</div>
+        <ul class="clean" style="color:var(--grey);">
+          <li>„Jetzt Termin sichern! 💇‍♀️“</li>
+          <li>„Mega Ergebnis!! 😍🔥💯“</li>
+          <li>„−20% diese Woche!“</li>
+          <li>Emoji-Gewitter, Hashtag-Wand.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="lab" style="margin-top:20px;">Signature-Phrasen</div>
+    <div class="sig">„Find your even.“ · „Ehrlich. Auch wenn’s unbequem ist.“ · „Der Moment, in dem es passt.“</div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">09</div>
+  </div>
+</section>
+
+<!-- 10 VISUELLE IDENTITÄT -->
+<section data-background-color="#F4F2EE">
+  <div class="pad">
+    <div class="eyebrow">05 · Visuelle Identität</div>
+    <h2 class="title sm">Ein Look wie ein Kunstband</h2>
+    <div class="row" style="margin-top:22px;align-items:flex-start;">
+      <div class="col">
+        <div class="sw">
+          <div class="s"><div class="chip" style="background:#1A1A1A;"></div><div class="nm">Ink</div><div class="hx">#1A1A1A</div></div>
+          <div class="s"><div class="chip" style="background:#ECEAE6;"></div><div class="nm">Cream</div><div class="hx">#ECEAE6</div></div>
+          <div class="s"><div class="chip" style="background:#B0875A;"></div><div class="nm">Naturholz</div><div class="hx">#B0875A</div></div>
+          <div class="s"><div class="chip" style="background:#6E6A64;"></div><div class="nm">Grau</div><div class="hx">#6E6A64</div></div>
+        </div>
+        <div class="lab" style="margin-top:24px;">Prinzipien</div>
+        <ul class="clean">
+          <li>Viel Negativraum — weniger ist mehr.</li>
+          <li>S/W-Porträts für Emotion, lichtes Interieur in Farbe.</li>
+          <li>Konsistenter, warmer Farb-Grade über alle Posts.</li>
+          <li>Schrift: Playfair/Didot (Display) + Inter/Futura (Funktion).</li>
+        </ul>
+      </div>
+      <div class="col" style="flex:0 0 480px;">
+        <img src="assets/interior_wide.jpg" style="width:100%;border-radius:2px;display:block;">
+        <div class="grey serif-i" style="font-size:12px;margin-top:8px;">Der reale Salon — licht, minimalistisch, Naturholz.</div>
+      </div>
+    </div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">10</div>
+  </div>
+</section>
+
+<!-- 11 KANAL-ARCHITEKTUR -->
+<section data-background-color="#F4F2EE">
+  <div class="pad">
+    <div class="eyebrow">05 · Kanal-Architektur</div>
+    <h2 class="title sm">Zwei Kanäle, zwei Rollen</h2>
+    <div class="chan" style="margin-top:22px;">
+      <div class="col card" style="padding:0;overflow:hidden;">
+        <div class="chead" style="background:var(--ink);color:var(--cream);"><span>Instagram</span><span class="serif-i wood" style="text-transform:none;letter-spacing:0;font-size:17px;">Die Galerie</span></div>
+        <div style="padding:22px 24px;" id="ig"></div>
+      </div>
+      <div class="col card ink" style="padding:0;overflow:hidden;">
+        <div class="chead" style="background:var(--wood);color:var(--ink);"><span>TikTok</span><span class="serif-i" style="text-transform:none;letter-spacing:0;font-size:17px;color:var(--ink);">Das Atelier-Fenster</span></div>
+        <div style="padding:22px 24px;" id="tk"></div>
+      </div>
+    </div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">11</div>
+  </div>
+</section>
+
+<!-- 12 CONTENT-SÄULEN -->
+<section data-background-color="#F4F2EE">
+  <div class="pad">
+    <div class="eyebrow">06 · Content-Säulen</div>
+    <h2 class="title sm">Fünf Säulen, ein Gefühl</h2>
+    <div style="margin-top:22px;" id="pillars"></div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">12</div>
+  </div>
+</section>
+
+<!-- 13 REDAKTIONSPLAN -->
+<section data-background-color="#F4F2EE">
+  <div class="pad">
+    <div class="eyebrow">06 · Redaktionsplan</div>
+    <h2 class="title xs">Ein Dreh-Tag — eine ganze Woche</h2>
+    <div class="batch" style="margin-top:18px;"><b>Das Batching-Prinzip</b>1 Dreh-Tag/Woche (90–120 Min.) → genug Rohmaterial für die ganze Woche. Neben dem Salonbetrieb machbar.</div>
+    <table class="week" style="margin-top:18px;" id="week"></table>
+    <div class="grey serif-i" style="font-size:12.5px;margin-top:14px;">Dreh-Tag (Mo): 2–3 Handwerk-Clips · 1 Verwandlung · 1 Haltungs-O-Ton · B-Roll (Raum, Hände, Licht) immer mitnehmen.</div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">13</div>
+  </div>
+</section>
+
+<!-- 14 POSTINGS TIKTOK I -->
+<section data-background-color="#1A1A1A">
+  <div class="pad">
+    <div class="eyebrow">07 · Beispiel-Postings</div>
+    <h2 class="title xs">TikTok — Handwerk &amp; Verwandlung</h2>
+    <div class="cards3" style="margin-top:20px;" data-grid="tt1"></div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">14</div>
+  </div>
+</section>
+
+<!-- 15 POSTINGS TIKTOK II -->
+<section data-background-color="#1A1A1A">
+  <div class="pad">
+    <div class="eyebrow">07 · Beispiel-Postings</div>
+    <h2 class="title xs">TikTok — Haltung, Raum &amp; Menschen</h2>
+    <div class="cards3" style="margin-top:20px;" data-grid="tt2"></div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">15</div>
+  </div>
+</section>
+
+<!-- 16 POSTINGS INSTAGRAM -->
+<section data-background-color="#F4F2EE">
+  <div class="pad">
+    <div class="eyebrow">07 · Beispiel-Postings</div>
+    <h2 class="title xs">Instagram — die kuratierte Galerie</h2>
+    <div class="cards3" style="margin-top:20px;" data-grid="ig1"></div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">16</div>
+  </div>
+</section>
+
+<!-- 17 CAPTION-BIBLIOTHEK -->
+<section data-background-color="#1A1A1A">
+  <div class="pad">
+    <div class="eyebrow">07 · Caption-Bibliothek</div>
+    <h2 class="title xs">Copy-&amp;-paste-fertige Captions</h2>
+    <div style="margin-top:18px;" id="caps"></div>
+    <div class="greyl" style="font-size:12.5px;margin-top:14px;">Hashtags dezent (5–10): #slowhair #berlinhair #prenzlauerberg #avantgardehair #haircraft</div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">17</div>
+  </div>
+</section>
+
+<!-- 18 EXKLUSIVITÄT -->
+<section data-background-color="#F4F2EE">
+  <div class="pad">
+    <div class="eyebrow">08 · Exklusivität</div>
+    <h2 class="title xs">Aura aufbauen — ohne Promis zu zeigen</h2>
+    <div class="dd" style="margin-top:22px;">
+      <div class="b paper accentL" style="border:1px solid var(--line);">
+        <div class="lab" style="color:var(--wood-dk);">Hebel ✓</div>
+        <ul class="clean">
+          <li>Andeuten statt zeigen (Mantel, Backstage, „diskret“).</li>
+          <li>Weniger, aber perfekt posten.</li>
+          <li>Knappheit elegant kommunizieren.</li>
+          <li>Editorial-Qualität konsequent halten.</li>
+          <li>Kooperationen: Mode, Galerien, Nischen-Düfte.</li>
+        </ul>
+      </div>
+      <div class="b ink card" style="border:none;">
+        <div class="lab" style="color:#C98A6B;">Tabus ✕</div>
+        <ul class="clean">
+          <li>Preise &amp; Rabatte im Feed.</li>
+          <li>„Jetzt buchen!“-Spam.</li>
+          <li>Promi-Gesichter posten (Diskretion!).</li>
+          <li>Trend-Tänze, Cringe-Audios.</li>
+          <li>Emoji- &amp; Hashtag-Gewitter.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">18</div>
+  </div>
+</section>
+
+<!-- 19 WACHSTUM -->
+<section data-background-color="#F4F2EE">
+  <div class="pad">
+    <div class="eyebrow">08 · Wachstum</div>
+    <h2 class="title sm">Sichtbar werden, wo der Tribe ist</h2>
+    <div style="margin-top:22px;" id="grow"></div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">19</div>
+  </div>
+</section>
+
+<!-- 20 FAHRPLAN -->
+<section data-background-color="#1A1A1A">
+  <div class="pad">
+    <div class="eyebrow">08 · Fahrplan</div>
+    <h2 class="title sm">Der 90-Tage-Relaunch</h2>
+    <div class="tl">
+      <div class="tlrule"></div>
+      <div class="ph"><div class="dot"></div><div class="wk">Woche 1–2</div><div class="pt">Fundament</div><div class="pd">Bio, Highlights, Farb-Grade. 9 Feed-Posts vorproduzieren, erster Dreh-Tag.</div></div>
+      <div class="ph"><div class="dot"></div><div class="wk">Woche 3–6</div><div class="pt">Launch</div><div class="pd">Relaunch live. Rhythmus etablieren, Säulen testen, erste Verwandlungen.</div></div>
+      <div class="ph"><div class="dot"></div><div class="wk">Woche 7–10</div><div class="pt">Schärfen</div><div class="pd">Top-Performer analysieren (Saves, Watch-Through). Mix anpassen.</div></div>
+      <div class="ph"><div class="dot"></div><div class="wk">Woche 11–12</div><div class="pt">Skalieren</div><div class="pd">Erste Kollaboration, Tastemaker-Reposts, Wartelisten-Gefühl aufbauen.</div></div>
+    </div>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">20</div>
+  </div>
+</section>
+
+<!-- 21 DASHBOARD -->
+<section data-background-color="#F4F2EE">
+  <div class="pad">
+    <div class="eyebrow">08 · Erfolgsmessung</div>
+    <h2 class="title sm">Monatlicher Blick — 5 Minuten</h2>
+    <div class="tiles" style="margin-top:24px;">
+      <div class="tile">Save-Rate ↑</div><div class="tile">Share-Rate ↑</div><div class="tile">Profilbesuche ↑</div><div class="tile">Reach (Nicht-Follower) ↑</div>
+      <div class="tile">Watch-Through ↑</div><div class="tile">DMs / Story-Replies ↑</div><div class="tile">Tastemaker-Reposts</div><div class="tile">Follower-Qualität</div>
+    </div>
+    <p style="margin-top:26px;font-size:15px;"><b>Leitstern:</b> <span class="grey serif-i">Lieber 4.000 richtige Follower als 40.000 beliebige. Qualität schlägt Reichweite.</span></p>
+    <div class="foot">EVEN · Social-Media-Strategie</div><div class="pageno">21</div>
+  </div>
+</section>
+
+<!-- 22 CLOSING -->
+<section data-background-color="#1A1A1A">
+  <div class="closing" style="background-image:url('assets/closing_wide.jpg');">
+    <div class="scrim"></div>
+    <div class="inner">
+      <div class="eyebrow" style="letter-spacing:.5em;">Find Your</div>
+      <div class="word" style="font-size:120px;">EVEN</div>
+      <div class="serif-i cream" style="font-size:24px;margin-top:8px;">Ins Gleichgewicht mit dir selbst.</div>
+      <div class="greyl" style="font-size:12px;margin-top:34px;">EVEN Hair · Berlin · Social-Media-Strategie 2026</div>
+    </div>
+  </div>
+</section>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+// ---- data-driven content ----
+const D = {
+  agenda:[
+    ["01","Ausgangslage & Auftrag","Wo EVEN steht und worum es geht"],
+    ["02","Strategischer Kern","Signal statt Verkauf"],
+    ["03","Leitkonzept & Markenfundament","„Ins Gleichgewicht mit dir selbst.“"],
+    ["04","Ziele, Zielgruppe & Tonalität","Wen wir erreichen — und wie wir klingen"],
+    ["05","Visuelle Identität & Kanäle","Instagram = Galerie · TikTok = Atelier"],
+    ["06","Content-Säulen & Redaktionsplan","Was wir posten — realistisch produzierbar"],
+    ["07","Beispiel-Postings & Captions","Über 18 konkrete Ideen"],
+    ["08","Exklusivität, Wachstum & Fahrplan","Hebel, 90 Tage, Erfolgsmessung"],
+  ],
+  ksL:["„Jetzt Termin buchen!“","Viel posten","Trends mitmachen","Reichweite um jeden Preis","Erfolg = Termine"],
+  ksR:["Kein Buchungs-Spam, kein Preis","Weniger, dafür makellos","Eigene Haltung setzen","Die richtigen Leute erreichen","Erfolg = Saves, Shares, Reposts"],
+  fund:[
+    ["Essenz","Gleichgewicht (Even)"],
+    ["Claim","„Ins Gleichgewicht mit dir selbst.“ · kurz: „Find your even.“"],
+    ["Versprechen","Kein Look von der Stange — der Moment, in dem Wunsch & Persönlichkeit zusammenfallen."],
+    ["Archetyp","Der Künstler + der Weise — ästhetisch kompromisslos, ehrlich."],
+    ["Tonhaltung","Ruhig, selbstsicher, warm, intellektuell. Nie laut, nie verkäuferisch."],
+    ["Bildwelt","S/W-Editorial-Porträts · lichtes Interieur · Naturholz · viel Negativraum."],
+  ],
+  ig:[["Rolle","Das kuratierte Image. Ruhig, editorial, makellos."],["Feed","Wirkt wie ein Kunstband — einheitliche Farbwelt."],["Mix/Woche","1 Reel · 1 Carousel · 1 Einzelbild · Stories täglich"],["Frequenz","3 Feed-Posts/Woche + Stories"]],
+  tk:[["Rolle","Reichweite über Handwerk — keine Tänze, kein Cringe."],["Was zieht","Handwerk-Nahaufnahmen, Verwandlungen, „oddly satisfying“."],["Regel","Hook in Sekunde 1. Sounds nur, wenn sie zur Ruhe passen."],["Frequenz","4–5 Videos/Woche"]],
+  pillars:[
+    ["01","Die Verwandlung","AHA-Momente, der Blick im Spiegel.","TikTok + IG Reel","25%"],
+    ["02","Das Handwerk","Schnitt, Farbe, Textur — ASMR-tauglich.","TikTok + IG","25%"],
+    ["03","Die Haltung","Ehrliche Takes, das mutige „Nein“.","IG Carousel + TikTok","20%"],
+    ["04","Der Raum","Atmosphäre, Ritual, Berlin-Stimmung.","IG + Stories","15%"],
+    ["05","Die Menschen","Team & Azubi-Reise hinter der Marke.","TikTok + Stories","15%"],
+  ],
+  week:{
+    days:["MO","DI","MI","DO","FR","SA","SO"],
+    ig:["Story: Ritual","—","Reel: Verwandlung","Story: Umfrage","Carousel: Haltung","Einzelbild: Detail","Story: Repost"],
+    tt:["Handwerk (ASMR)","Verwandlung","—","Haltung-Talk","Farb-Alchemie","Menschen: Azubi","—"],
+  },
+  tt1:[
+    ["Handwerk","Reel","Der Schnitt","Nahaufnahme: Schere durch nasses Haar, satter Sound. Kein Gesicht — ein Satz blendet ein.","„Kein schneller Schnitt. Eine Entscheidung. 🖤“"],
+    ["Verwandlung","Reel","Der Spiegel-Moment","Fokus auf den Blick der Kundin im Spiegel (anonym), wenn sie sich neu sieht.","„Der Moment, in dem es passt. #findyoureven“"],
+    ["Handwerk","Reel","Farb-Alchemie","Anrühren der Farbe in Zeitlupe, Pinselstrich, Texturen. Oddly satisfying.","„Farbe ist Chemie. Und Gefühl.“"],
+    ["Haltung","Talk","3 Dinge, die wir nicht verkaufen","O-Ton einer Inhaberin, ruhig in die Kamera. Authority-Piece.","„Wir verkaufen dir keinen Trend. Wir finden, was bleibt.“"],
+    ["Bildung","Talk","Warum Slow Hair?","20-Sek.-Erklärung: warum Zeit das eigentliche Luxusgut ist.","„Gut Ding will Weile. Dein Haar auch.“"],
+    ["Handwerk","Reel","Sound on — nur Werkzeuge","Reines ASMR von Schere, Kamm, Föhn. Augen zu, Ton an.","„Ton an. 🎧“"],
+  ],
+  tt2:[
+    ["Menschen","POV","Tag 1 vs. Monat 8","Azubi-Perspektive: was sich verändert, wenn man bei Profis lernt.","„Lernen bei den Langsamen. Folge 1.“"],
+    ["Haltung","Story","Das ehrliche Nein","„Eine Kundin wollte X. Wir haben Nein gesagt. Hier ist warum.“ Integrität.","„Manchmal ist Nein der bessere Service.“"],
+    ["Raum","B-Roll","Berlin, 8 Uhr","Cinematic: der Salon vor dem ersten Termin. Morgenlicht, Stille.","„Bevor der Tag beginnt.“"],
+    ["Handwerk","Reel","Das Föhn-Finale","Befriedigender Final-Reveal von Textur & Bewegung in Slow-Mo.","„Der letzte Schliff.“"],
+    ["Bildung","Talk","Die 4-Stunden-Strähne","Warum exzellente Balayage Zeit braucht — und das gut ist.","„Warum es dauert. Und warum es sich lohnt.“"],
+    ["Diskurs","Talk","Was Haar über dich verrät","Kleiner intellektueller Take, der zum Speichern einlädt.","„Dein Haar erzählt. Wir hören zu.“"],
+  ],
+  ig1:[
+    ["Verwandlung","Reel","Der AHA","Der Spiegel-Blick, editorial vertont. Poetischer Zweizeiler.","„Manche Veränderungen sieht man nicht. Man spürt sie.“"],
+    ["Haltung","Carousel","3 Dinge, die wir nicht verkaufen","5 Slides, schwarz/Serif. Schließt mit „— EVEN“. Hohe Save-Rate.","„Speichern für deinen nächsten Termin.“"],
+    ["Ästhetik","Einzelbild","Textur","Makro einer frisch geschnittenen Partie im Naturlicht.","„Even.“"],
+    ["Philosophie","Carousel","Wunsch vs. Persönlichkeit","Visualisiert, wie EVEN beides in Einklang bringt — der AHA.","„Wo Wunsch und Wahrheit sich treffen.“"],
+    ["Exklusiv","Einzelbild","Diskret","Edler Mantel an der Garderobe, leerer Stuhl, warmes Licht.","„Diskretion ist Teil des Services.“"],
+    ["Menschen","Carousel","Das Team","Porträts inkl. Azubi, je ein ehrlicher Satz zur Haltung.","„Die Hände hinter dem Handwerk.“"],
+  ],
+  caps:[
+    "Manche Veränderungen sieht man nicht im Spiegel. Man spürt sie. — Find your even. 🖤",
+    "Wir verkaufen dir keinen Trend. Wir finden, was bleibt.",
+    "Wir nehmen uns die Zeit, die dein Haar verdient. Keine Minute weniger.",
+    "Diskretion ist Teil des Services. Manche Termine sprechen für sich.",
+    "Ehrlich. Auch wenn’s unbequem ist. Das schulden wir dir.",
+    "Der Moment, in dem Wunsch und Wahrheit dasselbe sind. Das ist EVEN.",
+  ],
+  grow:[
+    ["Hashtags","5–10 statt 30. Nische + Ort: #slowhair #berlinhair #prenzlauerberg #avantgardehair."],
+    ["Kollaborationen","Lokale Mode-Designer, Fotografen, Galerien, Cafés — gegenseitige Reposts als Fremd-Adel."],
+    ["Tastemaker","Wertvolle, ehrliche Kommentare bei den richtigen Berliner Kreativ-Accounts."],
+    ["Stories als Sog","„Frag uns ehrlich“-Box, Knappheits-Andeutung, Behind-the-scenes vom Dreh-Tag."],
+  ],
+};
+const esc=s=>s;
+// agenda
+function agItem(a){return `<li style="display:flex;gap:16px;margin-bottom:20px;"><span style="font-family:'Playfair Display';font-size:30px;color:var(--wood);">${a[0]}</span><span><span style="font-weight:600;font-size:15px;">${a[1]}</span><br><span class="grey" style="font-size:12px;">${a[2]}</span></span></li>`;}
+document.getElementById('ag1').innerHTML=D.agenda.slice(0,4).map(agItem).join('');
+document.getElementById('ag2').innerHTML=D.agenda.slice(4).map(agItem).join('');
+// ks
+document.getElementById('ksL').innerHTML=D.ksL.map(t=>`<div class="greyl" style="font-size:14px;margin:8px 0;">${t}</div>`).join('');
+document.getElementById('ksR').innerHTML=D.ksR.map(t=>`<div class="cream" style="font-size:14px;font-weight:600;margin:8px 0;">${t}</div>`).join('');
+// fund
+document.getElementById('fund').innerHTML=D.fund.map(r=>`<div class="kv"><span class="k">${r[0]}</span><span class="v">${r[1]}</span></div>`).join('');
+// channels
+const chRows=a=>a.map(r=>`<div style="margin-bottom:14px;"><div class="lab" style="margin:0 0 3px;font-size:10px;">${r[0]}</div><div style="font-size:13.5px;">${r[1]}</div></div>`).join('');
+document.getElementById('ig').innerHTML=chRows(D.ig);
+document.getElementById('tk').innerHTML=chRows(D.tk).replace(/font-size:13.5px;">/g,'font-size:13.5px;color:var(--cream);">');
+// pillars
+document.getElementById('pillars').innerHTML=D.pillars.map(p=>`<div class="prow"><span class="n">${p[0]}</span><span class="t">${p[1]}</span><span class="d">${p[2]}</span><span class="c">${p[3]}</span><span class="p">${p[4]}</span></div>`).join('');
+// week
+let wk=`<tr><th class="rl"></th>${D.week.days.map(d=>`<th>${d}</th>`).join('')}</tr>`;
+wk+=`<tr><td class="rl">Instagram</td>${D.week.ig.map(c=>`<td>${c}</td>`).join('')}</tr>`;
+wk+=`<tr class="tt"><td class="rl">TikTok</td>${D.week.tt.map(c=>`<td>${c}</td>`).join('')}</tr>`;
+document.getElementById('week').innerHTML=wk;
+// post cards
+function cardHTML(c){return `<div class="pc"><div class="bar"><span>${c[0]}</span><span>${c[1]}</span></div><div class="body"><div class="pt">${c[2]}</div><div class="pcn">${c[3]}</div><div class="cap"><span class="cl">Caption</span>${c[4]}</div></div></div>`;}
+document.querySelectorAll('[data-grid]').forEach(el=>{el.innerHTML=D[el.getAttribute('data-grid')].map(cardHTML).join('');});
+// captions
+document.getElementById('caps').innerHTML=D.caps.map(c=>`<div style="background:var(--char);border-left:4px solid var(--wood);padding:13px 18px;margin-bottom:9px;"><span class="serif-i cream" style="font-size:15px;">„${c}“</span></div>`).join('');
+// grow
+document.getElementById('grow').innerHTML=D.grow.map(g=>`<div class="card accentL" style="margin-bottom:10px;padding:14px 20px;"><b style="font-size:15px;">${g[0]}</b> <span class="grey" style="font-size:13.5px;">— ${g[1]}</span></div>`).join('');
+
+Reveal.initialize({
+  width:1280, height:720, margin:0.02, minScale:0.2, maxScale:2.0,
+  hash:true, controls:true, progress:true, slideNumber:'c/t',
+  transition:'fade', transitionSpeed:'default', center:false,
+});
+</script>
+</body>
+</html>
